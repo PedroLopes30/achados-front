@@ -1,16 +1,28 @@
-# React + Vite
+# Front-end do Sistema Achados e Perdidos IFRN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
+<img width="928" height="635" alt="image" src="https://github.com/user-attachments/assets/2c56a570-11b4-4c93-8db8-a0392d49abeb" />
 
-Currently, two official plugins are available:
+## Com a filtragem aplicada:
+<img width="838" height="466" alt="image" src="https://github.com/user-attachments/assets/d8fb4433-f171-4145-8a09-a0aabab4461a" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cadastro de um Item:
+<img width="775" height="597" alt="image" src="https://github.com/user-attachments/assets/55fa1274-6246-408b-aa89-263fc7fa6cd5" />
 
-## React Compiler
+## Visualização de um Item:
+<img width="789" height="562" alt="image" src="https://github.com/user-attachments/assets/637972b1-8c12-4317-b296-cc0971b8819d" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+# Como rodar o projeto?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- No terminal rode:
+```npm install```
+
+- Criar o arquivo *.env*:
+```touch .env```
+
+- Inserir a sua KEY da API:
+```VITE_API_KEY=coloque_sua_chave_aqui```
+
+- Por fim, rode:
+```npm run dev```
