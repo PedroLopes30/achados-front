@@ -1,0 +1,14 @@
+.formulario-pagina {
+  padding: 32px 0 48px;
+}
+
+.formulario-pagina h1 {
+  margin: 18px 0 7px;
+  font-size: 28px;
+}
+
+.formulario-pagina__descricao {
+  margin: 0 0 22px;
+  color: #5c665f;
+}
+

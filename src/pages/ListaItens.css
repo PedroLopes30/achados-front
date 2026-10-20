@@ -1,0 +1,46 @@
+.lista-pagina {
+  padding: 32px 0 48px;
+}
+
+.lista-pagina__titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.lista-pagina__titulo h1 {
+  margin: 0 0 7px;
+  font-size: 28px;
+}
+
+.lista-pagina__titulo p {
+  color: #5c665f;
+  margin: 0;
+}
+
+.lista-pagina__itens {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.lista-pagina__vazia {
+  background: #fff;
+  border: 1px solid #d9dfda;
+  border-radius: 6px;
+  padding: 24px;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .lista-pagina__titulo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .lista-pagina__itens {
+    grid-template-columns: 1fr;
+  }
+}

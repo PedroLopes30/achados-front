@@ -1,0 +1,34 @@
+.form-item {
+  display: grid;
+  gap: 16px;
+  max-width: 680px;
+  background: #fff;
+  border: 1px solid #d9dfda;
+  border-radius: 6px;
+  padding: 22px;
+}
+
+.form-item label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-item textarea {
+  resize: vertical;
+}
+
+.form-item__botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.form-item__nota {
+  margin: 0;
+  color: #5c665f;
+  font-size: 13px;
+}

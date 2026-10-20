@@ -1,0 +1,69 @@
+.detalhes-pagina {
+  padding: 32px 0 48px;
+}
+
+.detalhes-pagina h1 {
+  margin: 18px 0 0;
+  font-size: 28px;
+  overflow-wrap: anywhere;
+}
+
+.detalhes-pagina__topo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.detalhes-pagina__dados {
+  background: #fff;
+  border: 1px solid #d9dfda;
+  border-radius: 6px;
+  padding: 22px;
+}
+
+.detalhes-pagina__dados p {
+  margin: 0 0 18px;
+  white-space: pre-wrap;
+}
+
+.detalhes-pagina__dados p:last-child {
+  margin-bottom: 0;
+}
+
+.detalhes-pagina__botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 28px;
+}
+
+.devolucao-form {
+  max-width: 520px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #d9dfda;
+  border-radius: 6px;
+}
+
+.devolucao-form h2 {
+  margin: 0 0 16px;
+  font-size: 20px;
+}
+
+.devolucao-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 520px) {
+  .detalhes-pagina__topo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

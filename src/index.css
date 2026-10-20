@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f4;
+  color: #202923;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  padding: 10px 11px;
+  border: 1px solid #bfc9c2;
+  border-radius: 4px;
+  background: #fff;
+  color: #202923;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #9fcbb1;
+  outline-offset: 1px;
+  border-color: #205c43;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.container {
+  width: min(100% - 32px, 1000px);
+  margin: 0 auto;
+}
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 9px 14px;
+  border: 1px solid #205c43;
+  border-radius: 4px;
+  background: #205c43;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: #174832;
+}
+
+.botao--secundario {
+  background: #fff;
+  color: #205c43;
+}
+
+.botao--secundario:hover {
+  background: #edf4ef;
+}
+
+.botao--perigo {
+  border-color: #a83232;
+  background: #a83232;
+}
+
+.botao--perigo:hover {
+  background: #832727;
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: min(100% - 24px, 1000px);
+  }
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.status--aguardando {
+  background: #fff0c2;
+  color: #6b4e00;
+}
+
+.status--devolvido {
+  background: #dcefe3;
+  color: #205c43;
+}
+
+.mensagem {
+  padding: 12px 14px;
+  border-radius: 5px;
+  margin: 0 0 16px;
+}
+
+.mensagem--sucesso {
+  background: #e3f3e8;
+  color: #205c43;
+}
+
+.mensagem--erro {
+  background: #fde8e7;
+  color: #8f2727;
+}
+
+.voltar {
+  color: #205c43;
+  text-decoration: none;
+}
+
+.voltar:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+.item-card {
+  background: #fff;
+  border: 1px solid #d9dfda;
+  border-radius: 6px;
+  padding: 18px;
+}
+
+.item-card__topo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.item-card h2 {
+  margin: 0;
+  font-size: 19px;
+  overflow-wrap: anywhere;
+}
+
+.item-card p {
+  color: #4b554f;
+  margin: 12px 0;
+  white-space: pre-wrap;
+}
+
+.item-card__informacoes {
+  display: grid;
+  gap: 6px;
+  margin: 14px 0 18px;
+  font-size: 14px;
+}
+
